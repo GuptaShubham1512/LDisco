@@ -35,5 +35,94 @@ body{
     background-color:  #121212; 
 }
 .Rad{
-    border-radius: 7px;
+    border-radius: px;
+}
+.library{
+    min-height: 80vh;
+    position: relative;
+
+}
+
+.footer{
+    display: flex;
+    font size: 10px;
+    gap: 13px;
+    position: absolute;
+    bottom: 0;
+    padding: 10px,0;
+
+
+}
+
+.footer a{
+    color: grey;
+}
+
+/*Right Side*/
+
+.right{
+    width: 75vw;
+    padding: 10px;
+    margin: 11px;
+}
+.rounded{
+    border-radius:2px;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(34 34 34);
+}
+
+
+
+.Signup{
+    padding:2px;
+    margin: 15px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    
+}
+.Login{
+    padding: 12px;
+    margin: 15px;
+    font-weight: bold;
+    border-radius:56px;
+    background-color: Red;
+    color: black
+}
+.spotifyPlaylists {
+    padding: 16px;
+    margin: 0px ;
+    
+}
+
+.spotifyPlaylists h1 {
+    padding: 16px;
+}
+
+.cardContainer {
+    padding:2px;
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    max-height: 60vh; 
+}
+
+.card {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    justify-items: center;
+    justify-content: center;
+    background-color: #252525;
+    position: relative;
+    transition: all .9s;
+}
+.card img {
+    width: 100%;
+    object-fit: contain;
 }
