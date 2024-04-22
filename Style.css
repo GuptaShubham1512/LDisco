@@ -6,11 +6,13 @@
 body{
    /* background-color: black;
     color: white;*/
+    display: flex;
+    width: 100vw;
 }
 
 
 .left{
-    width: 25vw;
+    width: 24vw;
     padding: 10px;
     
 }
@@ -45,8 +47,8 @@ body{
 
 .footer{
     display: flex;
-    font size: 10px;
-    gap: 13px;
+    font-size: 12px;
+    gap: 10px;
     position: absolute;
     bottom: 0;
     padding: 10px,0;
@@ -61,7 +63,7 @@ body{
 /*Right Side*/
 
 .right{
-    width: 75vw;
+    width: 100vw;
     padding: 10px;
     margin: 11px;
 }
@@ -113,7 +115,7 @@ body{
 }
 
 .card {
-    width: 200px;
+    width: 190px;
     padding: 10px;
     border-radius: 5px;
     justify-items: center;
@@ -125,4 +127,13 @@ body{
 .card img {
     width: 100%;
     object-fit: contain;
+}
+.playbar{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 12px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
 }
